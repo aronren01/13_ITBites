@@ -1,24 +1,24 @@
 import Image from 'next/image';
 import Foto from "../public/assets/itbiteslogowhite.png";
 import {  RiAccountCircleFill  } from "react-icons/ri";
-
+import Link from "next/link";
 const NavBar = () => {
   return (
     <div>
-      <nav className="flex items-center justify-between h-24 bg-[#ff6702] fixed-top mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="flex items-center justify-between h-16 bg-[#ff6702] fixed-top mx-auto px-4 sm:px-6 lg:px-8">
         {/* Wrapper untuk logo dan teks */}
         <div className="flex items-center space-x-4">
-          <a href='../app#Beranda'><Image src={Foto} alt="logo" width={150} height={75} className='ml-12' /></a>
+          <Link href='../'><Image src={Foto} alt="logo" width={130} className='ml-12' /></Link>
           <div className='flex space-x-4'>
-            <a href="#" className="text-white font-bold mx-36 text-4xl">
+            <a href="..\KantinPage" className="text-white font-bold mx-36 text-3xl">
               kantin
             </a>
-            <a href="#" className="text-white font-bold text-4xl">
+            <a href="..\MenuPage" className="text-white font-bold text-3xl">
               makanan
             </a>
           </div>
         </div>
-        <a href='#'><RiAccountCircleFill className='w-16 h-16 right-0' color='white'/></a>
+        <a href='#'><RiAccountCircleFill className='w-14 h-14 right-0' color='white'/></a>
       </nav>
     </div>
   );
