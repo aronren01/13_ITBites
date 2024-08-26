@@ -22,56 +22,72 @@ export const MENU = [
         menuname: "Bakso",
         price: "Rp15.000",
         location: "East Corner",
-        kampus: "Ganesha"
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/Bakso",
+        jenis: "Makanan Berat"
     },
     {
         image: menu2,
         menuname: "Bebek Hitam",
         price: "Rp30.000",
-        location: "East Corner",
-        kampus: "Ganesha"
+        location: "GKUT 1",
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/BebekHitam",
+        jenis: "Makanan Berat"
     },
     {
         image: menu3,
         menuname: "Cromboloni",
         price: "Rp20.000",
-        location: "East Corner",
-        kampus: "Ganesha"
+        location: "Barrac",
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/Cromboloni",
+        jenis: "Camilan"
     },
     {
         image: menu4,
         menuname: "Gyoza",
         price: "Rp12.000",
-        location: "East Corner",
-        kampus: "Ganesha"
+        location: "GKU 2",
+        kampus: "Jatinangor",
+        link: "/MakananDetailPage/Gyoza",
+        jenis: "Camilan"
     },
     {
         image: menu5,
         menuname: "Mie Kuah",
         price: "Rp10.000",
         location: "East Corner",
-        kampus: "Ganesha"
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/MieKuah",
+        jenis: "Makanan Berat"
     },
     {
         image: menu6,
         menuname: "Nasi Goreng",
         price: "Rp12.000",
-        location: "East Corner",
-        kampus: "Ganesha"
+        location: "Barrac",
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/NasiGoreng",
+        jenis: "Makanan Berat"
     },
     {
         image: menu7,
         menuname: "Soto Padang",
         price: "Rp15.000",
         location: "East Corner",
-        kampus: "Ganesha"
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/SotoPadang",
+        jenis: "Makanan Berat"
     },
     {
         image: menu8,
         menuname: "Sushi",
         price: "Rp20.000",
-        location: "East Corner",
-        kampus: "Ganesha"
+        location: "GKU Barat",
+        kampus: "Ganesha",
+        link: "/MakananDetailPage/Sushi",
+        jenis: "Makanan Berat"
     },
 ];
 
