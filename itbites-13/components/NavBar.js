@@ -13,7 +13,7 @@ const NavBar = () => {
             <a href="..\KantinPage" className="text-white font-bold mx-36 text-3xl">
               kantin
             </a>
-            <a href="..\MenuPage" className="text-white font-bold text-3xl">
+            <a href="..\MakananPage" className="text-white font-bold text-3xl">
               makanan
             </a>
           </div>

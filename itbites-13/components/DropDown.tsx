@@ -22,7 +22,7 @@ const DropDown = () => {
       </div>
       <div
         id="DropDown"
-        className={`border rounded-xl border-gray-500 bg-white p-8 w-[220px] h-[100px] absolute top-[75px] flex items-center flex-col py-[10px] ${
+        className={`border rounded-xl border-[#ffb888] bg-white p-8 w-[220px] h-[100px] absolute top-[75px] flex items-center flex-col py-[10px] ${
           isOpen ? "" : "hidden"
         }`}
       >

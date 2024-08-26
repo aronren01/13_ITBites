@@ -1,5 +1,11 @@
-import menu1 from "../../assets/KOICA/LINE_ALBUM_Koica_240824_0.jpg";
-import menu2 from "../../assets/KOICA/LINE_ALBUM_Koica_240824_1.jpg";
+import menu1 from "../../assets/Placeholder/Bakso.jpg";
+import menu2 from "../../assets/Placeholder/Bebek Sambel Hitam.jpeg";
+import menu3 from "../../assets/Placeholder/Cromboloni.jpeg";
+import menu4 from "../../assets/Placeholder/Gyoza.jpeg";
+import menu5 from "../../assets/Placeholder/Mie Kuah.jpg";
+import menu6 from "../../assets/Placeholder/NasiGoreng.jpeg";
+import menu7 from "../../assets/Placeholder/Soto Padang.jpeg";
+import menu8 from "../../assets/Placeholder/Sushi.jpg";
 import K_EC1 from "../../assets/East Corner/Kantin_QnQ.jpg"
 import K_EC2 from "../../assets/East Corner/Kantin_Matahari.jpg"
 import K_GKUB1 from "../../assets/GKUB/Raflesia.jpg"
@@ -13,43 +19,59 @@ import K_GKU2 from "../../assets/Kehutanan GKU 2/Kyns Coffee.jpg"
 export const MENU = [
     {
         image: menu1,
-        menuname: "Nasi Goreng",
+        menuname: "Bakso",
         price: "Rp15.000",
+        location: "East Corner",
+        kampus: "Ganesha"
     },
     {
         image: menu2,
-        menuname: "Nasi Lemak",
-        price: "Rp12.000",
+        menuname: "Bebek Hitam",
+        price: "Rp30.000",
+        location: "East Corner",
+        kampus: "Ganesha"
     },
     {
-        image: menu1,
+        image: menu3,
+        menuname: "Cromboloni",
+        price: "Rp20.000",
+        location: "East Corner",
+        kampus: "Ganesha"
+    },
+    {
+        image: menu4,
+        menuname: "Gyoza",
+        price: "Rp12.000",
+        location: "East Corner",
+        kampus: "Ganesha"
+    },
+    {
+        image: menu5,
+        menuname: "Mie Kuah",
+        price: "Rp10.000",
+        location: "East Corner",
+        kampus: "Ganesha"
+    },
+    {
+        image: menu6,
         menuname: "Nasi Goreng",
-        price: "Rp15.000",
-    },
-    {
-        image: menu2,
-        menuname: "Nasi Lemak",
         price: "Rp12.000",
+        location: "East Corner",
+        kampus: "Ganesha"
     },
     {
-        image: menu1,
-        menuname: "Nasi Goreng",
+        image: menu7,
+        menuname: "Soto Padang",
         price: "Rp15.000",
+        location: "East Corner",
+        kampus: "Ganesha"
     },
     {
-        image: menu2,
-        menuname: "Nasi Lemak",
-        price: "Rp12.000",
-    },
-    {
-        image: menu1,
-        menuname: "Nasi Goreng",
-        price: "Rp15.000",
-    },
-    {
-        image: menu2,
-        menuname: "Nasi Lemak",
-        price: "Rp12.000",
+        image: menu8,
+        menuname: "Sushi",
+        price: "Rp20.000",
+        location: "East Corner",
+        kampus: "Ganesha"
     },
 ];
 
@@ -58,40 +80,56 @@ export const KANTIN = [
         image: K_EC1,
         kantinName: "Kantin QnQ",
         location: "East Corner",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinQnQ"
     },
     {
         image: K_EC2,
         kantinName: "Kantin Matahari",
         location: "East Corner",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinMatahari"
     },
     {
         image: K_Barrac1,
         kantinName: "Kantin Barrac 1",
         location: "Barrac",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinBarrac1"
     },
     {
         image: K_Barrac2,
         kantinName: "Kantin Barrac 2",
         location: "Barrac",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinBarrac2"
     },
     {
         image: K_GKU2,
         kantinName: "Kyn's Coffee",
         location: "GKU 2",
+        Kampus: 'Jatinangor',
+        link : "/KantinDetailPage/KynsCoffee"
     },
     {
         image: K_GKUB1,
         kantinName: "Rafflesia",
         location: "GKU Barat",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/Rafflesia"
     },
     {
         image: K_GKUT1,
         kantinName: "Kantin GKUT 1",
         location: "GKU Timur",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinGKUT1"
     },
     {
         image: K_Lab5,
         kantinName: "Kantin Labtek V",
         location: "Labtek V",
+        Kampus: 'Ganesha',
+        link : "/KantinDetailPage/KantinLabtek5"
     },
 ]

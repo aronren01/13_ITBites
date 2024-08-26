@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import FoodCard from "@/components/FoodCard";
 import FoodCardSmall from "@/components/FoodCardSmall";
+import FoodCardSmall2 from "@/components/FoodCardSmall2";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -20,7 +21,7 @@ export default function Home() {
               Telusuri Makanan yang ada di kantin ITB!
             </h3>
             <Link
-              href="/MenuPage"
+              href="/KantinPage"
               className="mt-10 md:mt-16 bg-[#fe6601] w-[60%] md:w-[148px] h-[55px] rounded-[50px] shadow-2xl font-extrabold text-xl text-white flex items-center justify-center"
             >
               Explore
@@ -28,9 +29,9 @@ export default function Home() {
           </div>
 
           <div className="flex flex-row items-center md:items-start gap-4 px-4 mt-[200px]">
-            <FoodCardSmall />
+            <div className="mt-10 mr-6"><FoodCardSmall /></div>
             <FoodCard />
-            <FoodCardSmall />
+            <div className="mt-10 ml-6"><FoodCardSmall2 /></div>
           </div>
         </div>
       </div>

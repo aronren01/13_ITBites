@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
 
-const DropDown2 = () => {
+const DropDown3 = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const ToggleDropdown = () => {
@@ -26,20 +26,20 @@ const DropDown2 = () => {
         }`}
       >
         <div className="py-1 cursor-pointer hover:bg-[#f1f5f9] w-[180px] flex justify-center rounded-md my-1 text-[#ff6702]">
-          East Corner
+          Makan Berat
         </div>
         <div className="py-1 cursor-pointer hover:bg-[#f1f5f9] w-[180px] flex justify-center rounded-md my-1 text-[#ff6702]">
-          GKU Barat
+          Camilan
         </div>
         <div className="py-1 cursor-pointer hover:bg-[#f1f5f9] w-[180px] flex justify-center rounded-md my-1 text-[#ff6702]">
-          GKU Timur
+          Makanan Penutup
         </div>
         <div className="py-1 cursor-pointer hover:bg-[#f1f5f9] w-[180px] flex justify-center rounded-md my-1 text-[#ff6702]">
-          GKU Salman
+          Minuman
         </div>
       </div>
     </div>
   );
 };
 
-export default DropDown2;
+export default DropDown3;

@@ -4,9 +4,9 @@ import { MENU } from "../public/assets/constant";
 
 //sebelum pake harus instal font terlebih dahulu di global css dan juga di tailwind config, terus harus import gambarnya yang sesuai
 
-const FoodCardSmall = () => {
+const FoodCardSmall2 = () => {
 
-  const menu = MENU[1];
+  const menu = MENU[2];
   return (
 <div className='flex flex-col py-0 border border-[#d3773b] border-opacity-50 rounded-[20px] p-0 m-0 h-[330px]'>
         <Image src={menu.image} alt={menu.menuname} className=' w-[200px] h-[200px] cover rounded-t-[20px]'/>
@@ -19,4 +19,4 @@ const FoodCardSmall = () => {
   )
 }   
 
-export default FoodCardSmall;
+export default FoodCardSmall2;
