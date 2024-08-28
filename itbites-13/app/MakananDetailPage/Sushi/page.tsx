@@ -26,7 +26,7 @@ const SushiPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Sushi adalah makanan Jepang yang terkenal yang terdiri dari nasi yang dibumbui dengan cuka beras, gula, dan garam, dipadukan dengan berbagai bahan, termasuk ikan mentah, seafood, sayuran, dan kadang-kadang telur. Sushi dapat disajikan dalam berbagai bentuk, seperti nigiri, maki, dan sashimi.
+                  {menu.deskripsi}
                 </p>
               </div>
             </div>
@@ -137,15 +137,23 @@ const SushiPage = () => {
         </div>
         <div>
           <div className="mt-20">
-          <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">Lihat semua</div>
+            <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">
+              Lihat semua
+            </div>
             <div className="text-5xl text-[#ff6702] font-gilroy font-extrabold">
               Rekomendasi untukmu
             </div>
           </div>
           <div className="flex items-center justify-center mt-24">
-            <div className="mx-4 shadow-xl"><FoodCard/></div>
-            <div className="mx-4 shadow-xl"><FoodCard/></div>
-            <div className="mx-4 shadow-xl "><FoodCard/></div>
+            <div className="mx-4 shadow-xl">
+              <FoodCard />
+            </div>
+            <div className="mx-4 shadow-xl">
+              <FoodCard />
+            </div>
+            <div className="mx-4 shadow-xl ">
+              <FoodCard />
+            </div>
           </div>
         </div>
       </div>

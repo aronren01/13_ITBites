@@ -26,7 +26,7 @@ const BebekHitamPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Bebek Sambal Hitam adalah hidangan khas Indonesia yang menggunakan bebek sebagai bahan utamanya, yang dimasak dengan sambal hitam kental. Sambal ini terbuat dari campuran bawang, cabai, dan rempah lainnya, seringkali termasuk keluak yang memberikan warna hitam dan rasa khas pada sambal.
+                {menu.deskripsi}
                 </p>
               </div>
             </div>

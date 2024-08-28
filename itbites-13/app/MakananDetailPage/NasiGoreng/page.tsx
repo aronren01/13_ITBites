@@ -26,7 +26,7 @@ const NasiGorengPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Nasi goreng adalah salah satu hidangan paling populer di Indonesia dan banyak negara Asia lainnya. Terbuat dari nasi yang digoreng bersama kecap, bawang, bumbu lainnya, seringkali ditambah dengan telur, daging, atau seafood.
+                {menu.deskripsi}
                 </p>
               </div>
             </div>

@@ -26,9 +26,7 @@ const BaksoPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                  Bakso adalah makanan Indonesia berbentuk bola daging giling
-                  yang dicampur dengan tepung tapioka. Biasanya disajikan dalam
-                  kuah kaldu hangat dengan mie, sayuran, dan tahu.
+                  {menu.deskripsi}
                 </p>
               </div>
             </div>

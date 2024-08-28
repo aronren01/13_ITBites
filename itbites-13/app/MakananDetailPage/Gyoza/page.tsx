@@ -26,7 +26,7 @@ const GyozaPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Gyoza adalah jenis pangsit goreng atau dikukus yang berasal dari Cina, namun sangat populer di Jepang. Isinya biasanya terbuat dari campuran daging babi cincang, kol, bawang putih, jahe, dan bumbu-bumbu lainnya, disajikan dengan saus celup berbasis kedelai.
+                {menu.deskripsi}
                 </p>
               </div>
             </div>

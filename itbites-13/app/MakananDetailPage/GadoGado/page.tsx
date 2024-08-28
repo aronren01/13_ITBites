@@ -26,8 +26,7 @@ const GadoGado = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Gado-gado adalah makanan yang terdiri atas sayur-sayuran, kentang, tempe, tahu, telur rebus, 
-                dan lain-lain diberi bumbu sambal kacang dan sebagainya.</p>
+                {menu.deskripsi}</p>
               </div>
             </div>
             <div className="w-1/2 ">

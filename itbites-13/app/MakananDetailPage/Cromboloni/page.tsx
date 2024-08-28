@@ -26,7 +26,7 @@ const CromboloniPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Cromboloni adalah variasi pastry yang menggabungkan croissant dan bomboloni (donat Italia). Makanan ini memiliki tekstur luar yang renyah seperti croissant, sementara di dalamnya lembut dan bisa diisi dengan berbagai rasa, seperti cokelat, vanila, atau selai buah.
+                {menu.deskripsi}
                 </p>
               </div>
             </div>

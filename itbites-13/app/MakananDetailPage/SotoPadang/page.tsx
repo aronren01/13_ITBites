@@ -26,8 +26,7 @@ const SotoPadangPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Soto Padang adalah jenis soto, atau sup tradisional Indonesia, dari Padang, Sumatera Barat. Umumnya berkuah bening dan kaya akan rempah, sering dihidangkan dengan potongan daging sapi yang telah digoreng hingga kering sebagai topping.
-                </p>
+                {menu.deskripsi}</p>
               </div>
             </div>
             <div className="w-1/2 ">

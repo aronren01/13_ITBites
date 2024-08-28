@@ -26,8 +26,7 @@ const MieKuahPage = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Mie kuah adalah hidangan yang umum di berbagai negara Asia, termasuk Indonesia. Terdiri dari mie yang dimasak dalam kuah yang beraroma dan kaya rasa, seringkali diperkaya dengan sayuran, potongan daging, atau seafood.
-                </p>
+                {menu.deskripsi}</p>
               </div>
             </div>
             <div className="w-1/2 ">

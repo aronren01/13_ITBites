@@ -26,9 +26,7 @@ const KeripikSingkong = () => {
               </div>
               <div>
                 <p className="font-gilroy text-2xl mr-60 mt-4">
-                Keripik singkong adalah makanan yang terbuat dari singkong yang diiris 
-                tipis kemudian digoreng dengan minyak goreng. Ini memiliki rasa asin dan bau bawang yang gurih.</p>
-              </div>
+                {menu.deskripsi} </p></div>
             </div>
             <div className="w-1/2 ">
               <div className="flex items-center justify-center">
