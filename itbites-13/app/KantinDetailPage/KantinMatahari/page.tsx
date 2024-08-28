@@ -14,7 +14,7 @@ const KantinDetail = () => {
         <div className="font-bold text-[50px] text-[#ff9d5d]">East Corner</div>
       </div>
       <div>
-        <KantinFoodCard />
+      <KantinFoodCard startIndex={(6 - 1) * 8} endIndex={6 * 8}/>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ const KantinDetail = () => {
         <div className="font-bold text-[50px] text-[#ff9d5d]">GKU Timur</div>
       </div>
       <div>
-        <KantinFoodCard />
+      <KantinFoodCard startIndex={(4 - 1) * 8} endIndex={4 * 8}/>
       </div>
     </div>
   );

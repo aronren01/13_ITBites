@@ -14,7 +14,7 @@ const KantinDetail = () => {
         <div className="font-bold text-[50px] text-[#ff9d5d]">Labtek V</div>
       </div>
       <div>
-        <KantinFoodCard />
+      <KantinFoodCard startIndex={(5 - 1) * 8} endIndex={5 * 8}/>
       </div>
     </div>
   );

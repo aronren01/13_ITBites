@@ -8,13 +8,17 @@ const KantinDetail = () => {
       <NavBar />
       <div className="font-gilroy ml-24 pt-10">
         <div className="flex flex-row items-center">
-          <div className="font-bold text-[#fe6601] text-[100px] ">Kantin Rafflesia</div>
-          <div className="flex justify-center items-center bg-[#44d438] w-[120px] h-[60px] ml-12 rounded-[20px] text-white text-3xl mt-4">Buka</div>
+          <div className="font-bold text-[#fe6601] text-[100px] ">
+            Kantin Rafflesia
+          </div>
+          <div className="flex justify-center items-center bg-[#44d438] w-[120px] h-[60px] ml-12 rounded-[20px] text-white text-3xl mt-4">
+            Buka
+          </div>
         </div>
         <div className="font-bold text-[50px] text-[#ff9d5d]">GKU Barat</div>
       </div>
       <div>
-        <KantinFoodCard />
+        <KantinFoodCard startIndex={(1 - 1) * 8} endIndex={1 * 8}/>
       </div>
     </div>
   );

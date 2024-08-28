@@ -3,10 +3,15 @@ import { MENU } from '@/public/assets/constant';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const KantinDetailComponents = () => {
+interface Props {
+  startIndex: number;
+  endIndex: number;
+}
+
+const KantinDetailComponents: React.FC<Props> = ({ startIndex, endIndex }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4">
-        {MENU.map((menu, index) => (
+      {MENU.slice(startIndex, endIndex).map((menu, index) => (
           <Link href={menu.link}>
             <div key={index} className='flex flex-col py-0 border-1 border-[#d3773b] border-opacity-50 rounded-[20px] ml-20'>
                 <Image src={menu.image} alt={menu.menuname} className=' w-[300px] h-[300px] cover rounded-t-[20px]'/>
