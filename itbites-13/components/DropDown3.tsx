@@ -17,7 +17,7 @@ const DropDown3 = () => {
         onClick={ToggleDropdown}
         className="border-[2px] border-solid border-[#ffb888] bg-white border-1 px-5 py-2 w-[220px] h-[45px] flex items-center justify-center font-bold text-xl rounded-xl cursor-pointer text-[#ff6702]"
       >
-        Gedung
+        Pilih Kategori
       </div>
       <div
         id="DropDown"
