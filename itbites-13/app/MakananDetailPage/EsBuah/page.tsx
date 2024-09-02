@@ -8,6 +8,7 @@ import FoodCard from "@/components/FoodCard";
 import ReviewBar from "@/components/ReviewBar";
 import ReviewComment from "@/components/ReviewComment";
 import ReviewComment2 from "../../../components/ReviewComment2";
+import Link from "next/link";
 
 const EsBuahPage = () => {
   const menu = MENU[37];
@@ -47,24 +48,32 @@ const EsBuahPage = () => {
             </div>
           </div>
           <div>
-            <ReviewBar/>
+            <ReviewBar />
             <div>
-              <ReviewComment/>
-              <ReviewComment2/>
+              <ReviewComment />
+              <ReviewComment2 />
+            </div>
+            <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">
+              <Link href={menu.ulasan}>Lihat semua</Link>
             </div>
           </div>
         </div>
         <div>
           <div className="mt-20">
-          <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">Lihat semua</div>
             <div className="text-5xl text-[#ff6702] font-gilroy font-extrabold">
               Rekomendasi untukmu
             </div>
           </div>
           <div className="flex items-center justify-center mt-24">
-            <div className="mx-4 shadow-xl"><FoodCard/></div>
-            <div className="mx-4 shadow-xl"><FoodCard/></div>
-            <div className="mx-4 shadow-xl "><FoodCard/></div>
+            <div className="mx-4 shadow-xl">
+              <FoodCard />
+            </div>
+            <div className="mx-4 shadow-xl">
+              <FoodCard />
+            </div>
+            <div className="mx-4 shadow-xl ">
+              <FoodCard />
+            </div>
           </div>
         </div>
       </div>

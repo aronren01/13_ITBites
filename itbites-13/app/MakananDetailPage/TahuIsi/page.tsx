@@ -8,6 +8,7 @@ import FoodCard from "@/components/FoodCard";
 import ReviewBar from "@/components/ReviewBar";
 import ReviewComment from "@/components/ReviewComment";
 import ReviewComment2 from "../../../components/ReviewComment2";
+import Link from "next/link";
 
 const TahuIsiPage = () => {
   const menu = MENU[24];
@@ -52,11 +53,15 @@ const TahuIsiPage = () => {
               <ReviewComment/>
               <ReviewComment2/>
             </div>
+            <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">
+              <Link href={menu.ulasan}>
+              Lihat semua
+              </Link>
+              </div>
           </div>
         </div>
         <div>
           <div className="mt-20">
-          <div className="absolute right-24 text-[#ff6702] font-gilroy text-xl font-bold pt-6">Lihat semua</div>
             <div className="text-5xl text-[#ff6702] font-gilroy font-extrabold">
               Rekomendasi untukmu
             </div>
