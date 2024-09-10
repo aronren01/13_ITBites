@@ -6,9 +6,9 @@ const LoginPage = () => {
   return (
     <div className="bg-itbites bg-cover min-h-screen w-full">
         <NavBar/>
-        <div className='flex items-center justify-center mt-48'>
+        <div className='flex items-center justify-center mt-10'>
             <div className='flex flex-col items-center'>
-                <div className='font-extrabold font-gilroy text-[80px]'>Apakah Anda Pemilik Kantin?</div>
+                <div className='font-extrabold font-gilroy text-[80px] text-center'>Apakah Anda Pemilik Kantin?</div>
                 <div className='text-[#ff6702] font-extrabold text-[55px] mt-6'>Masuk Sebagai pemilik kantin</div>
                 <div className='flex flex-col'>
                     <div className='text-[#ff6702] my-2 font-bold text-xl'>Username</div>
