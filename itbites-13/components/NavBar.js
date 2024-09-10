@@ -16,13 +16,13 @@ const NavBar = () => {
     <div>
       <nav className="flex items-center justify-between h-16 bg-[#ff6702] fixed-top mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center space-x-4">
-          <Link href='../'><Image src={Foto} alt="logo" width={130} className='ml-12' /></Link>
+          <Link href='../'><Image src={Foto} alt="logo" width={130} className='ml-12 left-0' /></Link>
           <div className='flex space-x-4'>
-            <Link href="..\KantinPage" className="text-white font-bold mx-36 text-3xl">
-              kantin
+            <Link href="..\KantinPage" className="text-white font-bold mx-8 md:mx-36 text-2xl md:text-3xl">
+              Kantin
             </Link>
-            <Link href="..\MakananPage" className="text-white font-bold text-3xl">
-              makanan
+            <Link href="..\MakananPage" className="text-white font-bold text-2xl md:text-3xl">
+              Makanan
             </Link>
           </div>
         </div>
