@@ -7,7 +7,7 @@ const MakananComponents = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4 ml-10">
       {MENU.map((menu, index) => (
-        <Link href={menu.link}>
+        <Link href={menu.link} key={index}>
           <div
             key={index}
             className="flex flex-col py-0 border-1 border-[#d3773b] border-opacity-50 rounded-[20px]"

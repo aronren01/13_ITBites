@@ -7,7 +7,7 @@ const KantinPageComponents = () => {
   return (
     <div className="grid grid-cols-4 gap-10">
       {KANTIN.map((kantin, index) => (
-        <Link href={kantin.link} className="ml-20 w-[300px]">
+        <Link href={kantin.link} key={index} className="ml-20 w-[300px]">
           <div
             key={index}
             className="flex items-center justify-center flex-col py-0 border-1 w-[300px] h-[450px] border-[#d3773b] border-opacity-50 rounded-[20px]"

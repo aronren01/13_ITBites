@@ -12,7 +12,7 @@ const KantinDetailComponents: React.FC<Props> = ({ startIndex, endIndex }) => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-10 p-4">
       {MENU.slice(startIndex, endIndex).map((menu, index) => (
-          <Link href={menu.link}>
+          <Link href={menu.link} key={index}>
             <div key={index} className='flex flex-col py-0 border-1 border-[#d3773b] border-opacity-50 rounded-[20px] ml-20'>
                 <Image src={menu.image} alt={menu.menuname} className=' w-[300px] h-[300px] cover rounded-t-[20px]'/>
                 <div className='bg-gradient-to-t from-[#fe9b5b] to-[#fe6601] w-[300px] h-[150px] rounded-b-[20px] font-gilroy shadow-2xl'  > 
